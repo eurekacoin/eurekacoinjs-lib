@@ -1,6 +1,6 @@
 module.exports = {
-    qtum: {
-        messagePrefix: '\x15Qtum Signed Message:\n',
+    eurekacoin: {
+        messagePrefix: '\x15EurekaCoin Signed Message:\n',
         bech32: 'bc',
         bip32: {
             public: 0x0488b21e,
@@ -10,8 +10,8 @@ module.exports = {
         scriptHash: 0x32,
         wif: 0x80
     },
-    qtum_testnet: {
-        messagePrefix: '\x15Qtum Signed Message:\n',
+    eurekacoin_testnet: {
+        messagePrefix: '\x15EurekaCoin Signed Message:\n',
         bech32: 'tb',
         bip32: {
             public: 0x043587cf,

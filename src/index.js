@@ -1,7 +1,7 @@
-var qtumjs = require('bitcoinjs-lib')
+var eurekacoinjs = require('bitcoinjs-lib')
 
-Object.assign(qtumjs.networks, require('./networks'))
+Object.assign(eurekacoinjs.networks, require('./networks'))
 
-qtumjs.utils = require('./utils')
+eurekacoinjs.utils = require('./utils')
 
-module.exports = qtumjs
+module.exports = eurekacoinjs
