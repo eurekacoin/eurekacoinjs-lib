@@ -23,7 +23,7 @@
   "dependencies": {
     "bignumber.js": "^4.1.0",
     "bitcoinjs-lib": "^3.3.2",
-    "eurekacoin-opcodes": "^1.0.0",
+    "eurekacoin-opcodes": "git://github.com/eurekacoin/eurekacoin-opcodes-js.git#master",
     "safe-buffer": "^5.1.1"
   }
 }
